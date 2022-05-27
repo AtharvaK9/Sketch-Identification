@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: chartreuse;
+}
+
+h1 {
+    font-family: cursive;
+    background: black;
+    color: aliceblue;
+}
+
+#show_sketch {
+    float: right;
+    padding-top: 10px;
+}
+
+#label,
+#confidence {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+canvas {
+    border: 20px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px yellow;}
+    
+    to {box-shadow: 1px 1px 38px aqua;}
+}
